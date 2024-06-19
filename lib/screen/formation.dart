@@ -37,7 +37,8 @@ SizedBox item() {
             title: Text(article["title"]),
             subtitle: Text(article["description"]),
             titleTextStyle: const TextStyle(fontWeight: FontWeight.bold),
-            subtitleTextStyle: const TextStyle(color: Colors.black),
+            subtitleTextStyle:
+                const TextStyle(color: Colors.black, height: 1.5),
             leadingAndTrailingTextStyle: const TextStyle(color: Colors.black),
           )
         ]);

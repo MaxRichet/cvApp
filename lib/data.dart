@@ -24,19 +24,19 @@ List<Map> formation = [
     "img": "mds.png",
     "title": "My Digital School",
     "description":
-        "Lorem ipum dolor sit amet\nLorem ipum dolor sit amet\nLorem ipum dolor sit amet"
+        "B1 - Première année\nB2 - deuxième année\nB3 - troisième année validation CDA"
   },
   {
     "img": "mds.png",
     "title": "My Digital School",
     "description":
-        "Lorem ipum dolor sit amet\nLorem ipum dolor sit amet\nLorem ipum dolor sit amet"
+        "B1 - Première année\nB2 - deuxième année\nB3 - troisième année validation CDA"
   },
   {
     "img": "mds.png",
     "title": "My Digital School",
     "description":
-        "Lorem ipum dolor sit amet\nLorem ipum dolor sit amet\nLorem ipum dolor sit amet"
+        "B1 - Première année\nB2 - deuxième année\nB3 - troisième année validation CDA"
   },
 ];
 
