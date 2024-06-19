@@ -2,20 +2,20 @@ List<Map> xp = [
   {
     "img": "apple.png",
     "title": "Apple",
-    "subtitle": "Chef Full Stack Engineer",
-    "description": "Lorem ipum dolor sit amet"
+    "subtitle":
+        "Chef Full Stack Engineer\nLorem ipum dolor sit amet Lorem ipum dolor sit amet Lorem ipum dolor sit amet Lorem ipum dol"
   },
   {
     "img": "apple.png",
     "title": "Apple",
-    "subtitle": "Chef Full Stack Engineer",
-    "description": "Lorem ipum dolor sit amet"
+    "subtitle":
+        "Chef Full Stack Engineer\nLorem ipum dolor sit amet Lorem ipum dolor sit amet Lorem ipum dolor sit amet Lorem ipum dol"
   },
   {
     "img": "apple.png",
     "title": "Apple",
-    "subtitle": "Chef Full Stack Engineer",
-    "description": "Lorem ipum dolor sit amet"
+    "subtitle":
+        "Chef Full Stack Engineer\nLorem ipum dolor sit amet Lorem ipum dolor sit amet Lorem ipum dolor sit amet Lorem ipum dol"
   },
 ];
 

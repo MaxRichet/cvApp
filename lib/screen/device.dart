@@ -7,12 +7,15 @@ import 'skills.dart';
 import 'xp.dart';
 
 class DeviceScreen extends StatefulWidget {
+  const DeviceScreen({super.key});
+
   @override
+  // ignore: library_private_types_in_public_api
   _DeviceScreenState createState() => _DeviceScreenState();
 }
 
 class _DeviceScreenState extends State<DeviceScreen> {
-  int _currentScreen = 2;
+  int _currentScreen = 1;
   final List<Widget> _screenList = [
     const HomeScreen(),
     const XpScreen(),

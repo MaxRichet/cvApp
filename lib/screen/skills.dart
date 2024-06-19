@@ -36,18 +36,18 @@ SizedBox item(name) {
       itemExtent: 25,
       itemCount: name.length,
       itemBuilder: (BuildContext ctxt, int index) {
-        return Column(
-          child: GridView.count(
-            padding: const EdgeInsets.all(20),
-            children: <Widget>[
-              Text("data"),
-              Text("data"),
-              Text("data"),
-              Text("data"),
-            ],
-          ),
-          title: Image.asset(name[index]),
-        );
+        // return Column(
+        //   child: GridView.count(
+        //     padding: const EdgeInsets.all(20),
+        //     children: <Widget>[
+        //       Text("data"),
+        //       Text("data"),
+        //       Text("data"),
+        //       Text("data"),
+        //     ],
+        //   ),
+        //   Image.asset(name[index]),
+        // );
       },
     ),
   );
