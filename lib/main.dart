@@ -18,7 +18,7 @@ class MainApp extends StatelessWidget {
           brightness: Brightness.dark,
           scaffoldBackgroundColor: Colors.white,
           primarySwatch: Colors.teal),
-      home: Scaffold(
+      home: const Scaffold(
         body: Center(
           child: DeviceScreen(),
         ),

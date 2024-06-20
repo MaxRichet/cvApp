@@ -41,20 +41,20 @@ List<Map> formation = [
 ];
 
 List<String> data = [
-  "react.png",
-  "react.png",
-  "react.png",
-  "react.png",
-  "react.png",
-  "react.png"
+  "node.png",
+  "node.png",
+  "node.png",
+  "node.png",
+  "node.png",
+  "node.png"
 ];
 List<String> web = [
-  "react.png",
-  "react.png",
-  "react.png",
-  "react.png",
-  "react.png",
-  "react.png"
+  "html.png",
+  "html.png",
+  "html.png",
+  "html.png",
+  "html.png",
+  "html.png"
 ];
 List<String> mobile = [
   "react.png",
@@ -67,17 +67,17 @@ List<String> mobile = [
 
 List<Map> infos = [
   {
-    "img": "rectangleHorizon.png",
+    "img": "rectangleHorizon.jpg",
     "title": "Séjour à l'étranger",
     "description": "Lorem ipum dolor sit amet"
   },
   {
-    "img": "rectangleHorizon.png",
+    "img": "rectangleHorizon.jpg",
     "title": "Séjour à l'étranger",
     "description": "Lorem ipum dolor sit amet"
   },
   {
-    "img": "rectangleHorizon.png",
+    "img": "rectangleHorizon.jpg",
     "title": "Séjour à l'étranger",
     "description": "Lorem ipum dolor sit amet"
   },

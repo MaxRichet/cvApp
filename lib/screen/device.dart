@@ -1,5 +1,6 @@
 // screen/device.dart
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'home.dart';
 import 'formation.dart';
 import 'infos.dart';
@@ -15,7 +16,16 @@ class DeviceScreen extends StatefulWidget {
 }
 
 class _DeviceScreenState extends State<DeviceScreen> {
-  int _currentScreen = 1;
+  int _currentScreen = 4;
+
+  final List<String> _screenTitles = [
+    'Max Richet',
+    'Expérience',
+    'Formation',
+    'Compétences',
+    'Infos'
+  ];
+
   final List<Widget> _screenList = [
     const HomeScreen(),
     const XpScreen(),
@@ -28,8 +38,34 @@ class _DeviceScreenState extends State<DeviceScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Bienvenue"),
-      ),
+          title: Row(
+        children: [
+          Expanded(
+            child: Text(
+              _screenTitles[_currentScreen], // Titre dynamique
+              textAlign: TextAlign.center,
+            ),
+          ),
+          IconButton(
+            icon: const Icon(Icons.facebook),
+            onPressed: () {
+              launchURL("https://facebook.com");
+            },
+          ),
+          IconButton(
+            icon: const Icon(Icons.facebook),
+            onPressed: () {
+              launchURL("https://facebook.com");
+            },
+          ),
+          IconButton(
+            icon: const Icon(Icons.facebook),
+            onPressed: () {
+              launchURL("https://facebook.com");
+            },
+          ),
+        ],
+      )),
       body: _screenList[_currentScreen],
       bottomNavigationBar: BottomNavigationBar(
           type: BottomNavigationBarType.fixed,
@@ -55,5 +91,15 @@ class _DeviceScreenState extends State<DeviceScreen> {
     setState(() {
       _currentScreen = index;
     });
+  }
+}
+
+void launchURL(String url) async {
+  // ignore: deprecated_member_use
+  if (await canLaunch(url)) {
+    // ignore: deprecated_member_use
+    await launch(url);
+  } else {
+    throw 'Could not launch $url';
   }
 }

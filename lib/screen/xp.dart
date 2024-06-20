@@ -36,8 +36,10 @@ SizedBox item() {
             leading: Image.asset("${article["img"]}"),
             title: Text(article["title"]),
             subtitle: Text(article["subtitle"]),
-            titleTextStyle: const TextStyle(fontWeight: FontWeight.bold),
-            subtitleTextStyle: const TextStyle(color: Colors.black),
+            titleTextStyle:
+                const TextStyle(fontWeight: FontWeight.bold, height: 1.5),
+            subtitleTextStyle:
+                const TextStyle(color: Colors.black, height: 1.5),
             leadingAndTrailingTextStyle: const TextStyle(color: Colors.black),
           )
         ]);
