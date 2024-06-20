@@ -16,7 +16,7 @@ class DeviceScreen extends StatefulWidget {
 }
 
 class _DeviceScreenState extends State<DeviceScreen> {
-  int _currentScreen = 4;
+  int _currentScreen = 0;
 
   final List<String> _screenTitles = [
     'Max Richet',
